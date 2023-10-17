@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="320" id="JtZ-1p-O41" customClass="PrincipalNewCell" customModule="App_Commission" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="310"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JtZ-1p-O41" id="hiE-UG-JCK">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="310"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="showcase" translatesAutoresizingMaskIntoConstraints="NO" id="Ac5-XN-P8S">
+                        <rect key="frame" x="8" y="8" width="377" height="195"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="195" id="8kI-9F-igz"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Condições especiais de dezembro para compra de veículos com taxa reduzida até dia 29 deste mês" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jsc-1h-DRW">
+                        <rect key="frame" x="13" y="211" width="367" height="65"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="65" id="i7j-b1-rZD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" red="0.43921568989999998" green="0.47450977560000002" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12/09/2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UYi-s6-mgG">
+                        <rect key="frame" x="13" y="280" width="85" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="9RR-SX-3wG"/>
+                            <constraint firstAttribute="width" constant="85" id="PuB-X3-aMX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.21568629149999999" green="0.23921570180000001" blue="0.30196079609999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Leia mais" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HVF-dh-bOp">
+                        <rect key="frame" x="274" y="282" width="106" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="106" id="46O-wa-R0e"/>
+                            <constraint firstAttribute="height" constant="16" id="ip5-iQ-pcL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                        <color key="textColor" systemColor="linkColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Jsc-1h-DRW" secondAttribute="trailing" constant="13" id="27t-eo-6tc"/>
+                    <constraint firstAttribute="trailing" secondItem="HVF-dh-bOp" secondAttribute="trailing" constant="13" id="MgC-9L-wqt"/>
+                    <constraint firstAttribute="bottom" secondItem="UYi-s6-mgG" secondAttribute="bottom" constant="10" id="Oov-NQ-dia"/>
+                    <constraint firstAttribute="trailing" secondItem="Ac5-XN-P8S" secondAttribute="trailing" constant="8" id="Q7K-BW-JdD"/>
+                    <constraint firstItem="HVF-dh-bOp" firstAttribute="centerY" secondItem="UYi-s6-mgG" secondAttribute="centerY" id="Ye9-xz-j5Z"/>
+                    <constraint firstItem="Jsc-1h-DRW" firstAttribute="top" secondItem="Ac5-XN-P8S" secondAttribute="bottom" constant="8" symbolic="YES" id="Z7a-IC-6JP"/>
+                    <constraint firstItem="Jsc-1h-DRW" firstAttribute="leading" secondItem="hiE-UG-JCK" secondAttribute="leading" constant="13" id="aZ1-qm-jJd"/>
+                    <constraint firstItem="UYi-s6-mgG" firstAttribute="leading" secondItem="hiE-UG-JCK" secondAttribute="leading" constant="13" id="oNm-jC-tO4"/>
+                    <constraint firstItem="Ac5-XN-P8S" firstAttribute="top" secondItem="hiE-UG-JCK" secondAttribute="top" constant="8" id="pYI-PD-3iU"/>
+                    <constraint firstItem="Ac5-XN-P8S" firstAttribute="leading" secondItem="hiE-UG-JCK" secondAttribute="leading" constant="8" id="sPA-Lx-0pw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="leiaMais" destination="HVF-dh-bOp" id="wJj-JO-Fi8"/>
+                <outlet property="principalDate" destination="UYi-s6-mgG" id="J0e-lw-QCQ"/>
+                <outlet property="principalImg" destination="Ac5-XN-P8S" id="PIA-XR-TAp"/>
+                <outlet property="principalTitle" destination="Jsc-1h-DRW" id="F8s-IN-Uvx"/>
+                <outlet property="principalView" destination="hiE-UG-JCK" id="oya-5f-TO4"/>
+            </connections>
+            <point key="canvasLocation" x="267.93893129770993" y="105.63380281690141"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="showcase" width="308" height="185"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

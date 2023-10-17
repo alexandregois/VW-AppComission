@@ -1,0 +1,6 @@
+framework module Pods_App_CommissionTests {
+  umbrella header "Pods-App CommissionTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

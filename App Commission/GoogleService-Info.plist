@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>89780939208-4g5sb1n3csiv0rfcn8m05jktc5g6o1lu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.89780939208-4g5sb1n3csiv0rfcn8m05jktc5g6o1lu</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>89780939208-4msfsmgngru70voi7a63l054j1n0n69g.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCfNhKx4B9hiY0VZcBOphqSMP6fqgXWB3Q</string>
+	<key>GCM_SENDER_ID</key>
+	<string>89780939208</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>br.com.volkswagen.vwfs.commissions</string>
+	<key>PROJECT_ID</key>
+	<string>volkswagensales3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>volkswagensales3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:89780939208:ios:f2fb04ccce93b89443f8fd</string>
+</dict>
+</plist>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PenetratrionVarejoHelpViewController" customModule="App_Commission" customModuleProvider="target">
+            <connections>
+                <outlet property="closeBtn" destination="ZDg-gD-DN9" id="SCT-RW-rKj"/>
+                <outlet property="descricao" destination="1fa-4W-uz5" id="eSP-GV-k8D"/>
+                <outlet property="inferiorFormula" destination="nQw-3Y-9zP" id="964-sD-rjG"/>
+                <outlet property="subDescricao" destination="6KC-X0-Vfu" id="Tcm-ti-lzm"/>
+                <outlet property="superiorFormula" destination="pQL-dH-dkw" id="h3u-sV-VYd"/>
+                <outlet property="titulo" destination="wOl-Vc-u4f" id="GtO-Xs-FkI"/>
+                <outlet property="view" destination="iN0-l3-epB" id="HKc-D1-bNN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ajuda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qj3-wj-hx9">
+                    <rect key="frame" x="16" y="99" width="57" height="26"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                    <color key="textColor" red="0.0" green="0.19148788450000001" blue="0.37473131609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZDg-gD-DN9">
+                    <rect key="frame" x="362" y="99" width="15" height="26"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                    <color key="textColor" red="0.0" green="0.19148788450000001" blue="0.37473131609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Penetration Varejo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOl-Vc-u4f">
+                    <rect key="frame" x="16" y="165" width="361" height="24"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <color key="textColor" red="0.43921568989999998" green="0.47450977560000002" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1fa-4W-uz5">
+                    <rect key="frame" x="16" y="219" width="361" height="117"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="117" id="Dua-qe-3by"/>
+                    </constraints>
+                    <string key="text">Penetration Varejo Indicador que avalia a quantidade de contratos de financiamento novos em relação aos faturamentos (AaK), segmentado em varejo (faturamento varejo + faturamento frotistas faixas 0 e 1).</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.43921568989999998" green="0.47450977560000002" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Penetration Varejo (Varejo + frota faixas 0 e 1)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6KC-X0-Vfu">
+                    <rect key="frame" x="16" y="405" width="361" height="43"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <color key="textColor" red="0.43921568989999998" green="0.47450977560000002" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Financ novos varejo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQL-dH-dkw">
+                    <rect key="frame" x="16" y="503" width="361" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="mRX-fJ-saj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.43921568989999998" green="0.47450977560000002" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aak varejo - Consórcio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nQw-3Y-9zP">
+                    <rect key="frame" x="16" y="529" width="361" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.43921568989999998" green="0.47450977560000002" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IiX-04-owT">
+                    <rect key="frame" x="45" y="527" width="303" height="1"/>
+                    <color key="backgroundColor" red="0.43921568989999998" green="0.47450977560000002" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="XPd-sz-cs5"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exemplo:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JT1-42-DTE">
+                    <rect key="frame" x="16" y="356" width="70" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.43921568989999998" green="0.47450977560000002" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="1fa-4W-uz5" firstAttribute="top" secondItem="wOl-Vc-u4f" secondAttribute="bottom" constant="30" id="2HE-Oc-f1g"/>
+                <constraint firstItem="wOl-Vc-u4f" firstAttribute="top" secondItem="qj3-wj-hx9" secondAttribute="bottom" constant="40" id="4Ni-YS-06R"/>
+                <constraint firstItem="qj3-wj-hx9" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="7e0-b3-Kgz"/>
+                <constraint firstItem="6KC-X0-Vfu" firstAttribute="top" secondItem="1fa-4W-uz5" secondAttribute="bottom" constant="69" id="8hx-af-W4H"/>
+                <constraint firstAttribute="trailing" secondItem="IiX-04-owT" secondAttribute="trailing" constant="45" id="BAu-LL-XH8"/>
+                <constraint firstItem="JT1-42-DTE" firstAttribute="top" secondItem="1fa-4W-uz5" secondAttribute="bottom" constant="20" id="HE8-CM-pDZ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="wOl-Vc-u4f" secondAttribute="trailing" constant="16" id="KIs-K8-oNZ"/>
+                <constraint firstItem="ZDg-gD-DN9" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="40" id="ONV-XB-TJe"/>
+                <constraint firstItem="JT1-42-DTE" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="Oug-1H-rQz"/>
+                <constraint firstItem="qj3-wj-hx9" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="40" id="Qa8-dy-wfb"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="pQL-dH-dkw" secondAttribute="trailing" constant="16" id="V2m-l6-Zsl"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="nQw-3Y-9zP" secondAttribute="trailing" constant="16" id="XpK-hH-mBd"/>
+                <constraint firstItem="wOl-Vc-u4f" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="Zpd-Do-o4w"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="1fa-4W-uz5" secondAttribute="trailing" constant="16" id="aZk-Tl-gWo"/>
+                <constraint firstItem="pQL-dH-dkw" firstAttribute="top" secondItem="6KC-X0-Vfu" secondAttribute="bottom" constant="55" id="dlb-is-QVb"/>
+                <constraint firstItem="pQL-dH-dkw" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="e8M-bv-61I"/>
+                <constraint firstItem="1fa-4W-uz5" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="jjO-ZQ-JVk"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ZDg-gD-DN9" secondAttribute="trailing" constant="16" id="kBI-Dd-YJV"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="6KC-X0-Vfu" secondAttribute="trailing" constant="16" id="lbU-nw-l7K"/>
+                <constraint firstItem="6KC-X0-Vfu" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="lik-eI-gAv"/>
+                <constraint firstItem="IiX-04-owT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="45" id="lnI-S4-sAi"/>
+                <constraint firstItem="nQw-3Y-9zP" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="nKS-X9-Z7b"/>
+                <constraint firstItem="IiX-04-owT" firstAttribute="top" secondItem="pQL-dH-dkw" secondAttribute="bottom" constant="3" id="vPL-Ts-M7p"/>
+                <constraint firstItem="nQw-3Y-9zP" firstAttribute="top" secondItem="pQL-dH-dkw" secondAttribute="bottom" constant="5" id="y1v-Qf-2vg"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

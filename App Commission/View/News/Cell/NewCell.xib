@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="110" id="R39-E1-Ndn" customClass="NewCell" customModule="App_Commission" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="110"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="R39-E1-Ndn" id="TXH-lU-coW">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="110"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="showcase" translatesAutoresizingMaskIntoConstraints="NO" id="eao-Fp-qAs">
+                        <rect key="frame" x="10" y="10" width="90" height="90"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="C29-iA-mXL"/>
+                            <constraint firstAttribute="height" constant="90" id="Z8v-bk-Jpe"/>
+                            <constraint firstAttribute="width" secondItem="eao-Fp-qAs" secondAttribute="height" multiplier="1:1" id="vLn-gf-Wg3"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Condições especiais de dezembro para compra de veículos com taxa reduzida" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75E-Bf-GeB">
+                        <rect key="frame" x="115" y="10" width="273" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="GCu-3D-Nfl"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" red="0.43921568989999998" green="0.47450977560000002" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12/09/2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iXS-4T-Dtt">
+                        <rect key="frame" x="115" y="85" width="75" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="No6-rM-uCe"/>
+                            <constraint firstAttribute="width" constant="75" id="liZ-Pf-W6u"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.21568629149999999" green="0.23921570180000001" blue="0.30196079609999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Leia mais" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L4F-JU-pRd">
+                        <rect key="frame" x="289" y="84.666666666666671" width="94" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="ANs-o1-aGk"/>
+                            <constraint firstAttribute="width" constant="94" id="Uko-YE-Zf0"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                        <color key="textColor" systemColor="linkColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="75E-Bf-GeB" firstAttribute="top" secondItem="TXH-lU-coW" secondAttribute="top" constant="10" id="7Fq-bu-hbh"/>
+                    <constraint firstAttribute="bottom" secondItem="eao-Fp-qAs" secondAttribute="bottom" constant="10" id="BHW-cD-DxO"/>
+                    <constraint firstItem="eao-Fp-qAs" firstAttribute="leading" secondItem="TXH-lU-coW" secondAttribute="leading" constant="10" id="XZP-bi-yhN"/>
+                    <constraint firstAttribute="bottom" secondItem="iXS-4T-Dtt" secondAttribute="bottom" constant="10" id="kH5-qm-P0x"/>
+                    <constraint firstItem="eao-Fp-qAs" firstAttribute="top" secondItem="TXH-lU-coW" secondAttribute="top" constant="10" id="n4w-DF-dVu"/>
+                    <constraint firstItem="L4F-JU-pRd" firstAttribute="centerY" secondItem="iXS-4T-Dtt" secondAttribute="centerY" id="njZ-91-Cne"/>
+                    <constraint firstItem="iXS-4T-Dtt" firstAttribute="leading" secondItem="eao-Fp-qAs" secondAttribute="trailing" constant="15" id="r8w-1C-1Qm"/>
+                    <constraint firstAttribute="trailing" secondItem="L4F-JU-pRd" secondAttribute="trailing" constant="10" id="sH5-KA-WdF"/>
+                    <constraint firstItem="75E-Bf-GeB" firstAttribute="leading" secondItem="eao-Fp-qAs" secondAttribute="trailing" constant="15" id="t7Y-uM-xwB"/>
+                    <constraint firstAttribute="trailing" secondItem="75E-Bf-GeB" secondAttribute="trailing" constant="5" id="w2s-f3-PZa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="leiaMais" destination="L4F-JU-pRd" id="YVn-ru-ZUu"/>
+                <outlet property="newDate" destination="iXS-4T-Dtt" id="Jnn-C3-d40"/>
+                <outlet property="newImg" destination="eao-Fp-qAs" id="q8r-t7-WuH"/>
+                <outlet property="newTitle" destination="75E-Bf-GeB" id="Qgd-MT-7qW"/>
+                <outlet property="newView" destination="TXH-lU-coW" id="UBc-Cf-ImE"/>
+            </connections>
+            <point key="canvasLocation" x="365.64885496183206" y="4.9295774647887329"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="showcase" width="308" height="185"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
